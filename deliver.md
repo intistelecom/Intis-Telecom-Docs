@@ -1,7 +1,7 @@
 # Asynchronous delivery reports
 
 To receive delivery reports asynchronously you have to implement an http server at your side.  
-Please setup this URL in your web account.
+Please setup this URI in your web account.
 
 The URL should handle GET request as follows:
 http://your.host.com/dlr?message-id={message-id}&state={state}
