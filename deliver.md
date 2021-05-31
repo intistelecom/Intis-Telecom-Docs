@@ -6,7 +6,7 @@ Please setup this endpoint in your web account.
 The endpoint should handle GET request as follows:
 http(s)://your.host.com/dlr?message-id={message-id}&state={state}&message-state={message-state}
 * **http(s)://your.host.com/dlr** is your custom URI to callback to.
-* **message-id** id string returned to you when you sent the message. 
+* **message-id** id the string returned to you when you sent the message. 
 
 Either `state` or `message-state` should be specified at least to get the message state as a number or as a string value.
 * **state** delivery state, it is a number 0..9. Please use the table below to interpret the state code.
