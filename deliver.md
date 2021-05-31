@@ -6,6 +6,7 @@ Please setup this URI in your web account.
 The URL should handle GET request as follows:
 http://your.host.com/dlr?message-id={message-id}&state={state}&message-state={message-state}
 * **message-id** id string returned to you when you sent the message. 
+
 Either `state` or `message-state` should be specified at least to get the message state as a number or as a string value.
 * **state** delivery state, it is a number 0..9. Please use the table below to interpret the state code.
 * **message-state** delivery state, it is a string. Please use the table below to interpret the message states.
