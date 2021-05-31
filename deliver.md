@@ -10,8 +10,10 @@ The endpoint should handle GET request as follows:
 * `message-id` id the string returned to you when you sent the message. 
 
 Either `state` or `message-state` should be specified at least to get the message state as a number or as a string value.
-* `state` delivery state, it is a number 0..9. Please use the table below to interpret the state code.
-* `message-state` delivery state, it is a string. Please use the table below to interpret the message states.
+* `state` delivery state, it is a number 0..9. 
+* `message-state` delivery state, it is a string. 
+
+Please use the table below to interpret the state codes or message states.
 
 | Message State | Value | Type | Description |
 |---------------|-------|------|-------------|
